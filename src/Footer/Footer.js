@@ -1,13 +1,13 @@
 import React from 'react';
 
 import './Footer.scss';
-import Icons from './_Icons/Icons';
+/* import Icons from './_Icons/Icons'; */
 import Contributor from './Contributor';
-import { Title } from '../_components';
+/* import { Title } from '../_components'; */
 
 const Footer = () => (
   <section className="Footer">
-    <Title className="Title">React Conf Armenia</Title>
+    <Title className="Title">Tech Events Armenia</Title>
     <ul className="Icons">
       {Icons.map(icon => (
         <li key={icon.key} className="Icon">
