@@ -74,24 +74,6 @@ class Header extends Component {
 
     return (
       <header className={`Header${headerClasses}`}>
-        <div className="container">
-          <div className="Logo">
-            <img
-              className="LogoImg"
-              src="/logo.png"
-              alt="React Conference 2019 Logo"
-            />
-          </div>
-
-          <Button
-            link
-            size="small"
-            className="ActionButton MobileActionButton"
-            href="http://bit.ly/joinReactConfAM"
-          >
-            Request an Invite
-          </Button>
-
           <nav className="Navigation">
             <Link
               to="About"
@@ -103,8 +85,7 @@ class Header extends Component {
             >
               About
             </Link>
-            {/* <Link to="Schedule" smooth="true" spy={true} className="Link" onClick={()
-             => this.close()}>Schedule</Link> */}
+          
             <Link
               to="Speakers"
               smooth="true"
@@ -113,18 +94,9 @@ class Header extends Component {
               className="Link"
               onClick={() => this.close()}
             >
-              Speakers
+              Events
             </Link>
-            <Link
-              to="Sponsors"
-              smooth="true"
-              spy={true}
-              offset={-100}
-              className="Link"
-              onClick={() => this.close()}
-            >
-              Sponsors
-            </Link>
+            
             <Link
               to="Team"
               smooth="true"
@@ -135,36 +107,8 @@ class Header extends Component {
             >
               Team
             </Link>
-            <Link
-              to="Location"
-              smooth="true"
-              spy={true}
-              offset={-100}
-              className="Link"
-              onClick={() => this.close()}
-            >
-              Location
-            </Link>
-            <Link
-              to="FAQ"
-              smooth="true"
-              spy={true}
-              offset={-100}
-              className="Link"
-              onClick={() => this.close()}
-            >
-              FAQ
-            </Link>
-            {/* <Link to="Quiz" smooth="true" spy={true} className="Link" onClick={()
-             => this.close()}>Quiz</Link> */}
-            <Button
-              link
-              size="small"
-              className="ActionButton DesktopActionButton"
-              href="http://bit.ly/joinReactConfAM"
-            >
-              Request an Invite
-            </Button>
+            
+                        
           </nav>
           <a href="#Intro" className="NavBtn" onClick={e => this.toggle(e)}>
             <FontAwesome name="bars" />
