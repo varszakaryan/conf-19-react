@@ -15,15 +15,11 @@ const About = () => (
               What is
               {' '}
               <TitleAccent color="primary1">
-                React Conf
+                Tech Events Armenia
               </TitleAccent>
             </Title>
             <Description>
-              React Conf is an all-React conference,
-              gathering front-end and full-stack
-              developers in one place to share
-              knowledge, skills, to network, and
-              just to have fun.
+              Tech Events Armenia is a tech events’ management company that is behind the biggest technology conferences in Armenian and the region.
             </Description>
           </div>
         </div>
@@ -32,7 +28,7 @@ const About = () => (
             <img
               className="Illustration"
               src="./about-conf-image.png"
-              alt="About React Conf Armenia"
+              alt="About Tech Events Armenia"
             />
           </div>
         </div>
