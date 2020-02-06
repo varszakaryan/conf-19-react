@@ -25,16 +25,9 @@ const App = () => {
       <Intro />
       <About />
       <Speakers />
-      <Sponsors />
       <Team />
-      <Location />
-      <FAQ />
       <Footer />
-      /* <div
-        className="BackgroundIllustration"
-        style={{ backgroundPositionY: `${backgroundOffset}px` }}
-      /> */
-    </div>
+     </div>
   );
 };
 
