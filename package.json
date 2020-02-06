@@ -1,6 +1,6 @@
 {
   "name": "conf-19-react",
-  "version": "10",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@rehooks/window-scroll-position": "github:rehooks/window-scroll-position",
