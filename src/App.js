@@ -30,10 +30,10 @@ const App = () => {
       <Location />
       <FAQ />
       <Footer />
-      <div
+      /* <div
         className="BackgroundIllustration"
         style={{ backgroundPositionY: `${backgroundOffset}px` }}
-      />
+      /> */
     </div>
   );
 };
