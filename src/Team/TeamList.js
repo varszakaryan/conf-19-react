@@ -5,7 +5,7 @@ export default [
   },
   {
     name: 'Varser Zakaryan',
-    position: 'Project Manager at  React Conf Armenia',
+    position: 'Managing Director at  Tech Events Armenia',
   },
   {
     name: 'Gevorg Harutyunyan',
