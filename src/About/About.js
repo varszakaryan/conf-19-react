@@ -19,7 +19,7 @@ const About = () => (
               </TitleAccent>
             </Title>
             <Description>
-              Tech Events Armenia is a tech events’ management company that is behind the biggest technology conferences in Armenian and the region.
+              Tech Events Armenia is a tech events management company that is behind the biggest technology conferences in Armenia and the region.
             </Description>
           </div>
         </div>
